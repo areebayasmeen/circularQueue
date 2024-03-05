@@ -1,4 +1,4 @@
-import static sun.util.locale.LocaleUtils.isEmpty;
+
 
 public class circularQueue {
     int[] array = new int[5];
@@ -31,7 +31,7 @@ val=array[front];
 
         if(front==back){
             front=back=-1;
-            ;}
+            }
         else{front=(front+1)%5;}
 return val;
 }
